@@ -1,7 +1,12 @@
+import { ApplicationRef } from '@angular/core';
 import { bootstrapApplication } from '@angular/platform-browser';
-import { App } from './app/app';
-import { config } from './app/app.config.server';
+import { config } from './app/app.config.server'; // Tu configuración de servidor
+import { App } from './app/app'; // Tu componente principal
 
-const bootstrap = () => bootstrapApplication(App, config);
+// Define la función de arranque que recibe el contexto
+const bootstrap = (context: {
+  providers: { provide: any; useValue: any }[];
+  platform: ApplicationRef;
+}) => bootstrapApplication(App, config); 
 
 export default bootstrap;

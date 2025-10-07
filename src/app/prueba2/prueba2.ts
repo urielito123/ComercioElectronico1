@@ -10,10 +10,30 @@ import { MatButtonModule } from '@angular/material/button';
 })
 export class Prueba2 {
   productos = [
-  {nombre: 'iPhone 15 Pro', precio: 1200, descripcion: 'Smartphone de Apple con chip A17 Bionic y cámara triple.'},
-  {nombre: 'Samsung Galaxy S23', precio: 1100, descripcion: 'Pantalla AMOLED 6.8", cámara de 200MP y batería de larga duración.'},
-  {nombre: 'Xiaomi 13 Pro', precio: 850, descripcion: 'Procesador Snapdragon 8 Gen 2 y cámara Leica de alta resolución.'},
-  {nombre: 'Google Pixel 8', precio: 950, descripcion: 'Experiencia Android pura con IA avanzada y gran cámara nocturna.'},
-  {nombre: 'OnePlus 11', precio: 780, descripcion: 'Pantalla fluida 120Hz y carga ultrarrápida de 100W.'}
-]
+    {
+      nombre: 'MacBook Pro M3',
+      precio: 2199,
+      descripcion: 'Laptop de alto rendimiento de Apple con chip M3 Pro y pantalla Liquid Retina XDR.',
+    },
+    {
+      nombre: 'Dell XPS 15',
+      precio: 1850,
+      descripcion: 'Diseño premium con pantalla OLED, ideal para creadores de contenido.',
+    },
+    {
+      nombre: 'Lenovo ThinkPad X1 Carbon',
+      precio: 1699,
+      descripcion: 'Laptop ultraligera y duradera, enfocada en productividad empresarial.',
+    },
+    {
+      nombre: 'Asus ROG Zephyrus G14',
+      precio: 1550,
+      descripcion: 'Laptop gamer compacta con procesador AMD Ryzen y gráficos NVIDIA RTX.',
+    },
+    {
+      nombre: 'Microsoft Surface Laptop 5',
+      precio: 1299,
+      descripcion: 'Diseño elegante con pantalla táctil y excelente rendimiento para el uso diario.',
+    },
+  ];
 }
